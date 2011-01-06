@@ -54,7 +54,7 @@ namespace SharpArch.Futures.Core.Initialization.NHibernate
                 else
                 {
                     throw new InvalidOperationException(
-                        "Support for multiple databases has not yet been implemented in Zopa.Infrastructure.Initialization.NHibernateInitializer");
+                        "Support for multiple databases has not yet been implemented in SharpArch.Futures.Core.Initialization.NHibernate.NHibernateInitializer");
                 }
             }
         }

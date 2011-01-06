@@ -31,17 +31,17 @@ namespace SharpArch.Futures.Data.NHibernate
             container.Register(
                 Component.For(typeof(IRepositoryWithTypedId<,>))
                          .ImplementedBy(typeof(RepositoryWithTypedId<,>))
-                         .Named("nhibernateRepositoryType"));
+                         .Named("repositoryWithTypedIdType"));
 
             container.Register(
                 Component.For(typeof(INHibernateRepositoryWithTypedId<,>))
                          .ImplementedBy(typeof(NHibernateRepositoryWithTypedId<,>))
-                         .Named("nhibernateRepositoryType"));
+                         .Named("nhibernateRepositoryWithTypedIdType"));
 
             container.Register(
                 Component.For(typeof(ILinqRepository<>))
                          .ImplementedBy(typeof(LinqRepository<>))
-                         .Named("repositoryType"));
+                         .Named("linqRepositoryType"));
         }
     }
 }
