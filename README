@@ -1,0 +1,9 @@
+--------------------------------------------
+-- Cloning SharpArch.Futures from GitHub
+--------------------------------------------
+
+git clone git@github.com:sharparchitecture/SharpArch.Futures.git
+cd SharpArch.Futures
+git submodule init
+git submodule update
+Build\BuildAndPackage.cmd
